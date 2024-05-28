@@ -41,7 +41,7 @@ def save_as_csv(df, output_file):
 def main():
     args = get_args()
     selected_columns = ['Week','Date','Time','Who','Current affiliation','Brief vitae','Personal website']
-    blank_columns = ['Brief vitae','Personal website']
+    blank_columns = ['Who','Brief vitae','Personal website']
     df = get_data_from_sheet(sheet_url=args.sheet_url, worksheet_name=args.worksheet_name, credentials=args.credentials,
                              selected_columns=selected_columns,blank_columns=blank_columns)
     save_as_csv(df, args.output_file)
