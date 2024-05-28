@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/summer-camp-2024" # the subpath of your site, e.g. /blog
 url: "https://labordynamicsinstitute.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 disclaimer: Times may change. Participation upon invitation only.
-logo: assets/img/ai-campfile-numbers-3.jpeg
+logo: assets/img/ai-campfire-numbers-3.jpeg
 
 # Build settings
 markdown: kramdown
