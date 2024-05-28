@@ -13,9 +13,11 @@ This "campfire chat" (rather than a "fireplace chat") is a series of informal co
     {% if forloop.first %}
     <thead>
     <tr>
-      {% for cell in row %}
-        <th>{{ cell[0] }}</th>
-      {% endfor %}
+      <td> Week </td>
+      <td> Date </td>
+      <td> Time </td>
+      <td> Presenter </td>
+      <td> Brief vitae </td>
     </tr>
     </thead>
     {% endif %}
