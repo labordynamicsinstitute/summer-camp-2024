@@ -38,7 +38,7 @@ jobs:
              if [ -f bin/requirements.txt ]; then pip install -r bin/requirements.txt; fi
        - name: Obtain credentials
          run: |
-            echo "${{ secrets.GC_JSON }}" > auth.json
+            echo "${{ secrets.GC_JSON }}" | base64 -d > auth.json
             cut -b 1-100 auth.json
        - name: Create directory if not there
          run: |
