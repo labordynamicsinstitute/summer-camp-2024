@@ -28,7 +28,7 @@ This "campfire chat" (rather than a "fireplace chat") is a series of informal co
     <td> {{ row["Time"] }} </td>
     <td> {{ row["Who"] }} (<em>{{ row["Current affiliation"] }}</em>) </td>
     <td> {{ row["Brief vitae"] }} 
-    {% if {{ row["Personal website"] }} %}
+    {% if row["Personal website"] %}
         <br/><em>For more information, see the [personal webpage]({{ row["Personal website"] }})</em> 
         {% endif %}
         </td>
