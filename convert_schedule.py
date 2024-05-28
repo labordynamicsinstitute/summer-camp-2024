@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # _main.py
 import argparse
 import gspread
