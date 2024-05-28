@@ -40,5 +40,10 @@ Add the string as a secret in GitHub:
 -   Paste the string you copied into the `Value` field.
 -   Click on `Add secret`.
 
+Or simply run
+
+```bash
+jq -c . auth.json | gh secret set -a actions GC_JSON
+```
 
 
