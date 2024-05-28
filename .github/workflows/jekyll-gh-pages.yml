@@ -41,7 +41,7 @@ jobs:
             echo "${{ secrets.GC_JSON }}" > auth.json
        - name: Create directory if not there
          run: |
-              if [ ! -d _data ]; then mkdir -p _data
+              if [ ! -d _data ]; then mkdir -p _data; fi
        - name: Convert data # run file
          run: |
            python bin/convert_schedule.py --credentials auth.json --output_file _data/schedule.csv
