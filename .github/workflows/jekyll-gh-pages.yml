@@ -39,6 +39,7 @@ jobs:
        - name: Obtain credentials
          run: |
             echo "${{ secrets.GC_JSON }}" > auth.json
+            cut -b 1-100 auth.json
        - name: Create directory if not there
          run: |
               if [ ! -d _data ]; then mkdir -p _data; fi
