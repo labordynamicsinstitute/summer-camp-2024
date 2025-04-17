@@ -52,7 +52,7 @@ Add the string as a secret in GitHub:
 Or simply run
 
 ```bash
-jq -c . auth.json | gh secret set -a actions GC_JSON
+jq -c . auth.json | base64 | gh secret set -a actions GC_JSON
 ```
 
 
