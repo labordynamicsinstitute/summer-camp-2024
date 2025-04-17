@@ -48,6 +48,9 @@ jobs:
        - name: Convert data # run file
          run: |
            python bin/convert_schedule.py --credentials auth.json --years "2024,2025" --output_dir _data
+       - name: Securely remove credentials
+         run: |
+           if [ -f auth.json ]; then shred -zvu -n 5 auth.json; fi
        - name: Setup Pages
          uses: actions/configure-pages@v5
        - name: Build with Jekyll
