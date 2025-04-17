@@ -31,6 +31,11 @@
   border: 1px solid #ccc;
   border-top: none;
   animation: fadeEffect 1s;
+  width: 100%;
+}
+
+.tabcontent table {
+  width: 100%;
 }
 
 @keyframes fadeEffect {

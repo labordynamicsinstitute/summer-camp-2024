@@ -92,7 +92,16 @@ function openTab(evt, tabName) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
   document.getElementById(tabName).style.display = "block";
+  // Force a layout recalculation to ensure proper width
+  document.getElementById(tabName).style.width = "100%";
+  document.getElementById(tabName).querySelector("table").style.width = "100%";
   evt.currentTarget.className += " active";
 }
+
+// Execute after page load to ensure initial tab is properly sized
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("tab2025").style.width = "100%";
+  document.getElementById("tab2025").querySelector("table").style.width = "100%";
+});
 </script>
 
