@@ -47,7 +47,7 @@ jobs:
               if [ ! -d _data ]; then mkdir -p _data; fi
        - name: Convert data # run file
          run: |
-           python bin/convert_schedule.py --credentials auth.json --output_file _data/schedule.csv
+           python bin/convert_schedule.py --credentials auth.json --years "2024,2025" --output_dir _data
        - name: Setup Pages
          uses: actions/configure-pages@v5
        - name: Build with Jekyll
