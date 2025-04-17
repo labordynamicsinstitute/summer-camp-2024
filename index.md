@@ -7,48 +7,6 @@ This "campfire chat" (rather than a "[fireside chat](https://en.wikipedia.org/wi
 
 > Participation is by invitation only, but please do reach out if you think you would like to be invited to this or similar events.
 
-<style>
-.tabs {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-  border-radius: 5px 5px 0 0;
-}
-
-.tabs button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 16px;
-}
-
-.tabs button:hover {
-  background-color: #ddd;
-}
-
-.tabs button.active {
-  background-color: #924046;
-  color: white;
-}
-
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
-  animation: fadeEffect 1s;
-}
-
-@keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-</style>
-
 <div class="tabs">
   <button class="tablinks active" onclick="openTab(event, 'tab2025')">2025</button>
   <button class="tablinks" onclick="openTab(event, 'tab2024')">2024</button>
