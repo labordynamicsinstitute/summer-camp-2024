@@ -24,10 +24,14 @@ def get_data_from_sheet(sheet_url, worksheet_name, credentials, selected_columns
         table = sheet.worksheet(worksheet_name)
         records_data = table.get_all_records()
         df = pd.DataFrame.from_dict(records_data)
+        print(f"Total rows from sheet: {len(df)}")
         
         # Filter rows where 'Consent' is 'yes'
         if blank_columns is not None and 'Consent' in df.columns:
+            non_consent_rows = (df['Consent'] != consent).sum()
             df.loc[df['Consent'] != consent, blank_columns] = ''
+            print(f"Rows without consent: {non_consent_rows}")
+            print(f"Rows with consent: {len(df) - non_consent_rows}")
 
         # Set Time column to 'TBD' if it is empty
         if 'Time' in df.columns:
