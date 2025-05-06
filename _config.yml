@@ -14,14 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Summer Campfire Chat
-version: 2024
+version: 2025
 authors: 
   - name: Lars Vilhuber
     email: lars@vilhuber.com
 # authors: This should be replaced by contributor lookup - there's a Github thing to do that.
 description: >- # this means to ignore newlines until "baseurl:"
   A chat with economists in the intersection of careers and reproducibility
-baseurl: "/summer-camp-2024" # the subpath of your site, e.g. /blog
+baseurl: "/summer-camp-chats" # the subpath of your site, e.g. /blog
 url: "https://labordynamicsinstitute.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 disclaimer: Times may change. Participation upon invitation only.
 logo: assets/img/ai-campfire-numbers-3.jpeg
