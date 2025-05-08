@@ -3,7 +3,7 @@ title: Campfire Chat Schedule
 layout: withtable
 ---
 
-This "campfire chat" (rather than a "[fireside chat](https://en.wikipedia.org/wiki/Fireside_chats)") is a series of informal conversations between young aspiring economists (initially, as part of various LDI-related internships in <a href="https://aeadataeditor.github.io/projects/project6" alt="Link to internship in economics">economics</a> and <a href="https://transparency-certified.github.io/jobs/cornell" alt="Link to internship in computer science">computer science</a>) and economists who are starting, or are well under way, in a career as ... economists? Participants include graduate students, data scientists (who started as economists), economists working for the private sector as well as those working for, or even leading, major statistical agencies. 
+This "campfire chat" (rather than a "[fireside chat](https://en.wikipedia.org/wiki/Fireside_chats)") is a series of informal conversations between young aspiring economists (initially, as part of various LDI-related internships in <a href="https://aeadataeditor.github.io/projects/project6" alt="Link to internship in economics">economics</a> and <a href="https://transparency-certified.github.io/jobs/cornell" alt="Link to internship in computer science">computer science</a>) and economists who are starting, or are well under way, in a career as ... economists? Participants include graduate students, data scientists (who started as economists), economists working for the private sector as well as those working for major statistical agencies. 
 
 > Participation is by invitation only, but please do reach out if you think you would like to be invited to this or similar events.
 
